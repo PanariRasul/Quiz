@@ -1,10 +1,10 @@
 const questions = [
     {
-        "que":"Whic is markup language?",
-        "a":"HTML",
-        "b":"CSS",
-        "c":"javascript",
-        "d":"java",
+        "que":"What is the range of values that can be stored by int datatype in C?",
+        "a":"-(2^31) to (2^31) - 1.",
+        "b":"-256 to 255.",
+        "c":"-(2^61) to (2^61) - 1.",
+        "d":"0 to (2^31) - 1.",
         "correct":"a"
     },
     {
@@ -66,14 +66,16 @@ const submitQuiz = () => {
 }
 
 const getAnswer = () => {
+    let answer;
     opetionInput.forEach (
         (input) => {
             if(input.checked){
                 console.log("yes");
-                return input.value;
+                answer= input.value;
             }
         }
     )
+    return answer;
 }
 
 
@@ -87,8 +89,11 @@ const reset = () => {
 }
 
 const endQuiz = () => {
-    document.getElementsById("queBox").innerHTML = `
-    Thank You For Playing!
+    document.getElementById("container").innerHTML = `
+    <div style="text-align:center">
+        <h3>Thank You For Playing!</h3>
+        <h2>${right}/${total} Answers are Coorect</h2>
+    </div>
     `
 }
 
