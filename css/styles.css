@@ -42,7 +42,7 @@ input{
 
 }
 
-p{
+label{
     display: inline-block;
     margin: 10px;
     font-size: 25px;
@@ -70,11 +70,11 @@ button{
     margin: 20px;
     box-shadow: 3px 3px 10px rgb(87, 86, 85);
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 
 }
 
 button:hover{
     width: 95%;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
