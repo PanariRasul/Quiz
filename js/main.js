@@ -8,19 +8,115 @@ const questions = [
         "correct":"a"
     },
     {
-        "que":"Whic markup language?",
-        "a":"HTML",
-        "b":"CSS",
-        "c":"javascript",
-        "d":"java",
+        "que":"Using which tag we insert an JavaScript in HTML page?",
+        "a":"<JavaScript type=\"text/javascript\">",
+        "b":"<script type=\"text/javascript\">",
+        "c":"<JScript type=\"text/javascript\">",
+        "d":"<HTMLScript type=\"text/javascript\">",
         "correct":"b"
     },
     {
-        "que":" is markup language?",
+        "que":"Which of the following is true about links by default?",
+        "a":"An unvisited link is underlined and blue",
+        "b":" A visited link is underlined and red",
+        "c":"An active link is underlined and purple",
+        "d":"All the above",
+        "correct":"a"
+    },
+    {
+        "que":"The href attribute in the link tag specifies the:",
         "a":"HTML",
         "b":"CSS",
         "c":"javascript",
         "d":"java",
+        "correct":"c"
+    },
+    {
+        "que":"  HTML Event Attributes onunload fires",
+        "a":"Destination of a link",
+        "b":"Link",
+        "c":"Hypertext",
+        "d":"None of the above",
+        "correct":"a"
+    },
+    {
+        "que":"Twitter limits the number of characters per tweet is ?",
+        "a":"130",
+        "b":"160",
+        "c":"124",
+        "d":"140",
+        "correct":"d"
+    },
+    {
+        "que":"What is cell padding?",
+        "a":" Used to separate cell walls from their contents",
+        "b":"Used to set space between cells",
+        "c":" Both a and b above",
+        "d":"Used to provide width to a cell",
+        "correct":"a"
+    },
+    {
+        "que":" By default, what's the Fps shown on the timeline?",
+        "a":"15",
+        "b":"1",
+        "c":"20",
+        "d":"hnh?",
+        "correct":"a"
+    },
+    {
+        "que":"Dreamweaver's ____ feature allows users to select colors and make perfect color matches.",
+        "a":"Color Cube",
+        "b":"Palattes",
+        "c":"HTML view",
+        "d":"Eye dropper",
+        "correct":"d"
+    },
+    {
+        "que":"How to create a Date object in JavaScript?",
+        "a":"dateObjectName = new Date([parameters])",
+        "b":" dateObjectName.new Date([parameters])",
+        "c":"dateObjectName := new Date([parameters])",
+        "d":"dateObjectName Date([parameters])",
+        "correct":"a"
+    },
+    {
+        "que":"  The _______ method of an Array object adds and/or removes elements from an array.",
+        "a":" Reverse",
+        "b":"Shift",
+        "c":"Slice",
+        "d":"Splice",
+        "correct":"d"
+    },
+    {
+        "que":"To set up the window to capture all Click events, we use which of the following statement?",
+        "a":"window.captureEvents(Event.CLICK);",
+        "b":"window.handleEvents (Event.CLICK);",
+        "c":"window.routeEvents(Event.CLICK );",
+        "d":"window.raiseEvents(Event.CLICK );",
+        "correct":"a"
+    },
+    {
+        "que":"Who is making the Web standards?",
+        "a":"Mozilla",
+        "b":"Microsoft",
+        "c":"The World Wide Web Consortium",
+        "d":"NVDIA",
+        "correct":"c"
+    },
+    {
+        "que":"Which file controls how your frames will appear?",
+        "a":" Frameset",
+        "b":"Master Document",
+        "c":"Template",
+        "d":"Timeline",
+        "correct":"a"
+    },
+    {
+        "que":" What can't layers do if you want to convert them to tables?",
+        "a":"Be close",
+        "b":" Contain a Color",
+        "c":"Be larger than the target table",
+        "d":" Overlap",
         "correct":"c"
     }
 ]
