@@ -48,12 +48,12 @@ label{
     margin: 10px;
     font-size: 18px;
     cursor: pointer;
-    transition: ease-in-out;
+    transition: 2s;
 }
 
 input,label:hover{
     font-size: 21px;
-    transition-duration: .5s;
+    transition-duration: 1s;
 }
 
 .btn{
